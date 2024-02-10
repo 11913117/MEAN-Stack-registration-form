@@ -1,0 +1,107 @@
+/* job-application-list.component.css */
+
+.job-application-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .job-application-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .job-application-item:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .job-application-details {
+    margin-top: 5px;
+  }
+  
+  .job-application-details p {
+    margin: 5px 0;
+  }
+  
+  .job-application-details strong {
+    margin-right: 5px;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #45a049;
+  }
+  
+  .application-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .application-name {
+    font-weight: bold;
+  }
+  
+  .edit-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .application-details {
+    margin-top: 5px;
+  }
+  
+  .detail-label {
+    font-weight: bold;
+  }
+  
+  .new-application-button {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .new-application-button:hover {
+    background-color: #005f79;
+  }
+  

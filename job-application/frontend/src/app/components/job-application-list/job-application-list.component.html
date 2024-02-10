@@ -1,0 +1,22 @@
+<div class="search-container">
+    <input type="text" placeholder="Search" [(ngModel)]="searchTerm" class="search-input">
+    <button class="search-button" (click)="search()">Search</button>
+  </div>
+  
+  <ul>
+    <li *ngFor="let application of filteredApplications" class="application-item">
+      <div (click)="openEditMode(application)">
+        <span *ngIf="!application.isEditing" class="application-name">{{ application.name }}</span>
+        <input *ngIf="application.isEditing" type="text" [(ngModel)]="application.name" class="edit-input">
+      </div>
+      <div class="application-details">
+        <span class="detail-label">Name:</span> {{ application.name }}
+      </div>
+      <div class="application-details">
+        <span class="detail-label">Contact:</span> {{ application.phone }}
+      </div>
+    </li>
+  </ul>
+  
+  <button class="new-application-button" (click)="redirectToNewApplication()">Create New Application</button>
+  
